@@ -8,3 +8,12 @@ Considerando como exemplo o fornecimento do número 2
 2 . 5 = 10
 (...)
 2 . 10 = 20'''
+
+
+numero = int(input("Digite um número: "))
+contador = 1
+
+while contador <= 10:
+    resultado = numero * contador
+    print(f"{numero} . {contador} = {resultado}")
+    contador = + 1
